@@ -106,15 +106,15 @@ html {
 @media only screen and (min-width: 60em) {
    
     .circle {
-        width: 500px;
-        height: 500px;
-        left: calc(50% - 250px);
-        top: calc(50% - 250px);
+        width: 600px;
+        height: 600px;
+        left: calc(50% - 300px);
+        top: calc(50% - 300px);
     }
     
     .social-media {
         margin: 5em auto 0 auto;
-        max-width: 325px;
+        max-width: 350px;
     }
     
     .intro {
