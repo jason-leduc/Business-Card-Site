@@ -17,8 +17,9 @@ html {
     box-sizing: inherit;
 }
 
-.body {
-    background:url(../images/space-bg.jpg) 50% 0 no-repeat fixed;
+.container {
+    display: block;
+    float: right;
 }
 
 .circle {
