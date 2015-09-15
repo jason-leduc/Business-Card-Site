@@ -20,6 +20,7 @@ html {
 .container {
     display: block;
     float: right;
+    clear: both;
 }
 
 .circle {
