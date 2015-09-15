@@ -17,6 +17,10 @@ html {
     box-sizing: inherit;
 }
 
+.body {
+    background:url(../images/space-bg.jpg) 50% 0 no-repeat fixed;
+}
+
 .circle {
     width: 300px;
     height: 300px;
