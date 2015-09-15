@@ -23,7 +23,7 @@ html {
     clear: both;
     position: relative;
     left: 10em;
-    padding-bottom: 5px;
+    padding: 5px 5px 5px 5px;
 }
 
 .circle {
