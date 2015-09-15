@@ -19,9 +19,10 @@ html {
 
 .container {
     display: block;
-    position: relative;
-    left: 1em;
+    float: left;
     clear: both;
+    position: relative;
+    left: 10em;
 }
 
 .circle {
