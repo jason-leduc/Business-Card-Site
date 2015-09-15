@@ -17,14 +17,14 @@ html {
     box-sizing: inherit;
 }
 
-.container {
+<!-- .container {
     display: block;
     float: left;
     clear: both;
     position: relative;
     left: 10em;
     padding: 5px 5px 5px 5px;
-}
+} -->
 
 .circle {
     width: 300px;
