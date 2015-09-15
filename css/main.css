@@ -19,7 +19,7 @@ html {
 
 .container {
     display: block;
-    float: right;
+    float:inherit;
     clear: both;
 }
 
