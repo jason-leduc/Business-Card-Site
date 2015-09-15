@@ -1,22 +1,147 @@
-@charset "utf-8";
-
 @-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width: device-width; scale: 1; }
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
+@-viewport { width: device-width; scale: 1; }
 
 html {
     box-sizing: border-box;
     
-	-moz-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	text-size-adjust: 100%;
-    
-    font-size: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 
 *, *::before, *::after {
     box-sizing: inherit;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 150px);
+    top: calc(50% - 150px);
+    background-color: #00FFFF;
+    background-size: cover;
+    background-position: center;
+}
+
+.text {
+    text-align: center;
+    color: cornflowerblue;
+    margin-top: 2em;
+}
+
+.intro {
+    margin: .25em auto 0 auto;
+    max-width: 250px;
+    
+}
+
+.social-media {
+    margin: 3.75em auto 0 auto;
+    text-align: center;
+    max-width: 200px;
+}
+
+.mail {
+    text-decoration: none;
+    color: white;
+}
+
+.icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.icons li {
+    text-align: center;
+}
+
+.icon-sm {
+    margin-top: 1em;
+    padding: 0;
+    width: 40px;
+}
+
+@media only screen and (min-width: 25em) {
+    
+    .circle {
+        width: 350px;
+        height: 350px;
+        left: calc(50% - 175px);
+        top: calc(50% - 175px);
+    }
+
+}
+
+@media only screen and (min-width: 38em) {
+    
+    .circle {
+        width: 400px;
+        height: 400px;
+        left: calc(50% - 200px);
+        top: calc(50% - 200px);
+    }
+    
+    .social-media {
+        margin: 3em auto 0 auto;
+        max-width: 275px;
+    }
+    
+    .intro {
+        max-width: 275px;
+    }
+    
+    .icon-sm {
+        width: 55px;
+    }
+
+}
+
+@media only screen and (min-width: 60em) {
+   
+    .circle {
+        width: 500px;
+        height: 500px;
+        left: calc(50% - 250px);
+        top: calc(50% - 250px);
+    }
+    
+    .social-media {
+        margin: 5em auto 0 auto;
+        max-width: 325px;
+    }
+    
+    .intro {
+        max-width: 325px;
+    }
+    
+    .icon-sm {
+        width: 65px;
+    }
+
+}
+
+@media only screen and (min-width: 80em) {
+   
+    .circle {
+        width: 600px;
+        height: 600px;
+        left: calc(50% - 300px);
+        top: calc(50% - 300px);
+    }
+
+    .social-media {
+        margin: 8em auto 0 auto;
+    }
+    
+    .intro {
+        max-width: 375px;
+    }
+    
 }
