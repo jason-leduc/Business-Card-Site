@@ -100,7 +100,7 @@ h2:before {
 	content: '';
 	position: absolute;
 	height: 0px;
-	border-bottom: 1px dotted #939393;
+	border-bottom: 1px #939393;
 	width: 20px;
 	left: -33px;
 	top: 14px;
@@ -201,7 +201,7 @@ header nav {
 	float: left;
 	width: 188px;
 	padding: 25px 0px 20px 20px;
-	border-right: 1px dotted #939393;
+	border-right: 1px #939393;
 }
 
 #about #photo {
@@ -262,7 +262,7 @@ header nav {
 }
 
 #skills li:first-child {
-	border-right: 0px dotted #0097FF;
+	border-right: 0px #0097FF;
 }
 
 #skills div.progressbar {
@@ -277,7 +277,7 @@ header nav {
 	padding: 20px 33px;
 	float: right;
 	width: 524px;
-	border-left: 1px dotted #0097FF;
+	border-left: 1px #0097FF;
 	position: relative;
 	left: -1px;
 }
