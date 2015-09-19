@@ -153,6 +153,10 @@ p {
 /* =  Header
 /*-------------------------------------------------*/
 
+#logo {
+    padding: 15px 0px;
+}
+
 #header-inner {
 	background: #fff;
 	padding: 25px;
