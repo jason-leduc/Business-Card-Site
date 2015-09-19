@@ -314,16 +314,3 @@ header nav {
 	line-height: 16px;
 	margin-bottom: 10px;
 }
-
-/*-------------------------------------------------*
-/* =  Footer
-/*-------------------------------------------------*/
-footer {
-	margin-top: 10px;
-}
-
-footer p {
-	font-size: 11px;
-	color: #424242;
-	line-height: 24px;
-}
